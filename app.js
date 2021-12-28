@@ -53,6 +53,12 @@ for (let i = 0;  i< n; i++) {
            
         }
     }
+
+     if(n==2){
+        n++;
+        n=n/3;
+        console.log(n);
+    }
 }
 
 
@@ -64,4 +70,4 @@ for (let i = 0;  i< n; i++) {
 
 
 
-gameOfThree(100);
+gameOfThree(54);
